@@ -7,6 +7,7 @@ En samlad, kategoriserad katalog över **gratis** resurser till shadcn/ui: block
 | Sökväg | Innehåll |
 |---|---|
 | `kallor.md` | Aggregatorer och listor vi skördar länkar från |
+| `inkorg/` | Rålistor som väntar på dedupe och inläsning i katalogen |
 | `katalog.yaml` | Huvudkatalogen, en post per resurs (master-data) |
 | `screenshots/<kategori>/<slug>.png` | Skärmdumpar, namngivna efter postens `slug` |
 
@@ -19,6 +20,12 @@ En samlad, kategoriserad katalog över **gratis** resurser till shadcn/ui: block
 - `themes`: färgteman, theme-generatorer och designtokens
 - `extensions`: tillägg, plugins, CLI-verktyg, editorer, formulärbyggare
 - `animation`: animerade komponenter (motion-baserade)
+- `charts`: diagrambibliotek och diagramkomponenter
+- `primitives`: headless-grunder som shadcn bygger på (Radix, Base UI, Ark …)
+- `tailwind-portable`: Tailwind-block som inte är shadcn-native men går att porta
+- `showcase-repos`: riktiga open source-appar byggda med shadcn, att låna mönster från
+- `design-kits`: Figma-kit och designresurser
+- `ports`: shadcn för andra ramverk (Vue, Solid …)
 
 ## Postformat (katalog.yaml)
 

@@ -25,3 +25,7 @@ Aggregatorer och listor. Bocka av när källan är genomgången.
 - [ ] [21st.dev](https://21st.dev), en community-katalog med tusentals komponenter
 - [ ] [shadcn registry directory](https://ui.shadcn.com/docs/directory), den officiella listan över tredjepartsregistries
 - [ ] [awesome-shadcn (andra forks/listor på GitHub)](https://github.com/search?q=awesome+shadcn&type=repositories)
+
+## Inkorg (rålistor, ej dedupade)
+
+- [ ] `inkorg/2026-10-10-chrille.csv`, 83 poster från Chrille (semikolonseparerad: namn;url;kort). Dedupe mot `katalog.yaml` nästa pass.
