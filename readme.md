@@ -6,10 +6,10 @@ En samlad, kategoriserad katalog över **gratis** resurser till shadcn/ui: block
 
 | Sökväg | Innehåll |
 |---|---|
-| `kallor.md` | Aggregatorer och listor vi skördar länkar från |
+| `sources.md` | Aggregatorer och listor vi skördar länkar från |
 | `inkorg/` | Rålistor som väntar på dedupe och inläsning i katalogen |
-| `katalog.yaml` | Huvudkatalogen, en post per resurs (master-data) |
-| `screenshots/<kategori>/<slug>.png` | Skärmdumpar, namngivna efter postens `slug` |
+| `catalog.yaml` | Huvudkatalogen, en post per resurs (master-data) |
+| `screenshots/<slug>.webp` | Skärmdumpar, namngivna efter postens `slug` |
 
 ## Kategorier
 
@@ -27,7 +27,7 @@ En samlad, kategoriserad katalog över **gratis** resurser till shadcn/ui: block
 - `design-kits`: Figma-kit och designresurser
 - `ports`: shadcn för andra ramverk (Vue, Solid …)
 
-## Postformat (katalog.yaml)
+## Postformat (catalog.yaml)
 
 ```yaml
 - slug: magic-ui
@@ -39,16 +39,16 @@ En samlad, kategoriserad katalog över **gratis** resurser till shadcn/ui: block
   free: full        # full | partial (gratisdel + betald pro) | unknown
   status: candidate # candidate -> verified -> screenshotted
   source: awesome-shadcn-ui
-  screenshot: screenshots/components/magic-ui.png
+  screenshot: screenshots/magic-ui.webp
   notes: ""
 ```
 
 ## Arbetsflöde
 
-1. **Skörda**: gå igenom `kallor.md`, lägg till nya poster i `katalog.yaml` med `status: candidate`.
+1. **Skörda**: gå igenom `sources.md`, lägg till nya poster i `catalog.yaml` med `status: candidate`.
 2. **Verifiera**: kolla att länken lever, att det faktiskt är gratis, sätt `license` och `free`. Byt status till `verified`.
 3. **Skärmdumpa**: ta en bild av demo-/förhandsvisningssidan och sätt `status: screenshotted`.
-4. **Generera**: (senare) bygg en README-galleri- eller webbvy automatiskt från `katalog.yaml`.
+4. **Generera**: (senare) bygg en README-galleri- eller webbvy automatiskt från `catalog.yaml`.
 
 ## Regler
 

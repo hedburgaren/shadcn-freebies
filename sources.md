@@ -28,4 +28,4 @@ Aggregatorer och listor. Bocka av när källan är genomgången.
 
 ## Inkorg (rålistor, ej dedupade)
 
-- [ ] `inkorg/2026-10-10-chrille.csv`, 83 poster från Chrille (semikolonseparerad: namn;url;kort). Dedupe mot `katalog.yaml` nästa pass.
+- [ ] `inkorg/2026-10-10-chrille.csv`, 83 poster från Chrille (semikolonseparerad: namn;url;kort). Dedupe mot `catalog.yaml` nästa pass.
