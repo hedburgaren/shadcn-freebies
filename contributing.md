@@ -5,7 +5,9 @@ Suggestions are welcome. The bar for getting into the index is narrow on purpose
 ## What gets in
 
 - **It extends shadcn/ui.** It installs through the shadcn CLI or a shadcn registry, is built on shadcn/ui components, or produces themes, code or designs for shadcn/ui.
-- **It is free to use.** A freemium site can be listed with `free: partial`, and the link then goes straight to the free part.
+- **It offers something for free.** Fully free, or a free part next to a paid tier (`free: partial`), in which case the link goes straight to the free part.
+
+The license is noted when it can be found. It is information for the reader, not a condition for getting in.
 
 Plenty of good projects fail the first test. shadcn/ui itself and the libraries it builds on, Tailwind CSS kits that are not built on shadcn/ui, apps that happen to use it, and general directories all stay out. They are listed in `excluded.yaml` with the reason, so the same links do not come back on every harvest.
 

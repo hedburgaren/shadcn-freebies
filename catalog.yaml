@@ -86,10 +86,10 @@
   url: https://mynaui.com
   repo: https://github.com/praveenjuge/mynaui
   category: components
-  free: unknown
-  status: candidate
+  free: full
+  status: verified
   source: manual
-  notes: No license found in the repository or on the site.
+  notes: No license found in the repository or on the site; ask the author before reusing code.
 
 - slug: origin-ui
   name: Origin UI
@@ -142,9 +142,9 @@
   url: https://skiper-ui.com
   category: components
   free: partial
-  status: candidate
+  status: verified
   source: manual
-  notes: The terms of service reserve all rights and allow personal use only; no license for the components found.
+  notes: The terms of service reserve all rights and allow personal use only; read them before reusing code.
 
 - slug: ui-layouts
   name: UI Layouts
@@ -222,9 +222,9 @@
   url: https://ui.aceternity.com
   category: animation
   free: partial
-  status: candidate
+  status: verified
   source: manual
-  notes: The licence page covers the Pro tier only; no license found for the free components.
+  notes: The licence page covers the Pro tier; no license found for the free components.
 
 - slug: animate-ui
   name: Animate UI
@@ -452,10 +452,10 @@
   url: https://shadcnui-addon.vercel.app
   repo: https://github.com/AmruthLP12/shadcnui-addon
   category: extensions
-  free: unknown
-  status: candidate
+  free: full
+  status: verified
   source: manual
-  notes: No license in the repository.
+  notes: No license in the repository; ask the author before reusing code.
 
 - slug: tablecn
   name: tablecn

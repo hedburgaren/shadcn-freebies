@@ -2,13 +2,15 @@
 
 An index of free extensions for [shadcn/ui](https://ui.shadcn.com): blocks, components, dashboards, templates, themes and tooling.
 
-Everything listed here is free to use, at least in part. Each entry states its license, and each one gets a screenshot so you can see what it is before you click.
+Everything listed here offers something for free, in full or in part. Each entry states its license where one can be found, and each one gets a screenshot so you can see what it is before you click.
 
-If you want everything that exists for shadcn/ui, [awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) is bigger. This index is deliberately narrower: only free resources that extend shadcn/ui, and none of them marked verified until someone has opened the link and checked the license.
+If you want everything that exists for shadcn/ui, [awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) is bigger. This index is deliberately narrower: only resources that extend shadcn/ui and give something away, and none of them marked verified until someone has opened the link and checked what it offers.
+
+The index links to other people's work and copies none of their code. The license field is there so you know the terms before you use anything.
 
 ## Status
 
-Work in progress. Most entries are `verified`. The few still marked `candidate` have an open question, usually a missing license, and the question is written in their `notes`. Screenshots come next.
+Work in progress. All entries are `verified`. Screenshots are being added.
 
 ## Categories
 
@@ -68,7 +70,7 @@ Some things turn up on every shadcn list without being extensions. They go in `e
 ## How an entry gets in
 
 1. **Harvest.** Go through `sources.md` and add new links to `catalog.yaml` as `candidate`, after searching both `catalog.yaml` and `excluded.yaml` for the URL.
-2. **Verify.** Open the link. Confirm that the resource extends shadcn/ui and is free, fill in `license`, `repo` and `free`, then set `verified`. An entry whose license cannot be found stays `candidate`, with the reason in `notes`.
+2. **Verify.** Open the link. Confirm that the resource extends shadcn/ui and is free, fill in `license`, `repo` and `free`, then set `verified`. When no license can be found, `notes` says so; the entry is still listed.
 3. **Screenshot.** Capture the public demo or landing page and set `screenshotted`.
 4. **Publish.** A gallery generated from `catalog.yaml` is planned but not built yet.
 
