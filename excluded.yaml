@@ -48,6 +48,10 @@
 
 # not-shadcn
 
+- name: Align UI
+  url: https://www.alignui.com
+  reason: not-shadcn
+
 - name: Cruip free templates
   url: https://cruip.com/free-react-templates/
   reason: not-shadcn
@@ -84,6 +88,10 @@
   url: https://nivo.rocks
   reason: not-shadcn
 
+- name: Novel
+  url: https://novel.sh
+  reason: not-shadcn
+
 - name: Park UI
   url: https://park-ui.com
   reason: not-shadcn
@@ -94,6 +102,10 @@
 
 - name: Realtime Colors
   url: https://www.realtimecolors.com
+  reason: not-shadcn
+
+- name: Syntax UI
+  url: https://syntaxui.com
   reason: not-shadcn
 
 - name: TailGrids
@@ -142,6 +154,10 @@
 
 - name: Uiverse
   url: https://uiverse.io
+  reason: not-shadcn
+
+- name: Vercel Commerce
+  url: https://github.com/vercel/commerce
   reason: not-shadcn
 
 # showcase

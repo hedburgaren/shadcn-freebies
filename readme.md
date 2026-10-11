@@ -8,7 +8,7 @@ If you want everything that exists for shadcn/ui, [awesome-shadcn-ui](https://gi
 
 ## Status
 
-Work in progress. All entries are still `candidate`, which means collected but not yet checked. Treat licenses and free status as unconfirmed until an entry says `verified`. Screenshots come after verification.
+Work in progress. Most entries are `verified`. The few still marked `candidate` have an open question, usually a missing license, and the question is written in their `notes`. Screenshots come next.
 
 ## Categories
 
@@ -63,12 +63,12 @@ Some things turn up on every shadcn list without being extensions. They go in `e
   notes: ""
 ```
 
-`free: partial` means a free part next to a paid tier, and `url` then points straight at the free part. `source` names the list the entry was harvested from, or `manual` when it was added by hand. Fields that are not known yet, such as `repo` or `license`, are left out until they are.
+`free: partial` means a free part next to a paid tier, and `url` then points straight at the free part. `license` is the SPDX identifier where one exists, and otherwise the license as the project names it, such as `MIT + Commons Clause`. `source` names the list the entry was harvested from, or `manual` when it was added by hand. Fields that are not known yet, such as `repo` or `license`, are left out until they are.
 
 ## How an entry gets in
 
 1. **Harvest.** Go through `sources.md` and add new links to `catalog.yaml` as `candidate`, after searching both `catalog.yaml` and `excluded.yaml` for the URL.
-2. **Verify.** Open the link. Confirm that the resource extends shadcn/ui and is free, fill in `license`, `repo` and `free`, then set `verified`.
+2. **Verify.** Open the link. Confirm that the resource extends shadcn/ui and is free, fill in `license`, `repo` and `free`, then set `verified`. An entry whose license cannot be found stays `candidate`, with the reason in `notes`.
 3. **Screenshot.** Capture the public demo or landing page and set `screenshotted`.
 4. **Publish.** A gallery generated from `catalog.yaml` is planned but not built yet.
 

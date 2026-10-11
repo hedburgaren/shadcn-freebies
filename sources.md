@@ -23,5 +23,6 @@ every link in it has been checked against `catalog.yaml` and `excluded.yaml`.
 | [21st.dev](https://21st.dev) | Community registry with thousands of components | no |
 | [shadcn/ui registry directory](https://ui.shadcn.com/docs/directory) | The official list of third-party registries | no |
 | [GitHub search: awesome shadcn](https://github.com/search?q=awesome+shadcn&type=repositories) | Other awesome lists and forks | no |
+| [shadcn/ui docs: Figma](https://ui.shadcn.com/docs/figma) | Free and paid Figma kits linked from the official docs | no |
 | [Figma Community: shadcn](https://www.figma.com/community/search?resource_type=mixed&sort_by=relevancy&query=shadcn) | Figma kits for shadcn/ui | no |
 | [Vercel Templates](https://vercel.com/templates) | Next.js templates; filter for shadcn/ui | no |

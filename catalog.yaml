@@ -1,172 +1,184 @@
 # The index: one entry per resource. Field reference in readme.md.
-# Entries with status: candidate are unverified. Check the link, the license and
-# whether it is free before setting status: verified.
+# Entries with status: candidate are unverified or have an open question in notes.
 
 # components
 
-- slug: align-ui
-  name: Align UI
-  description: Open-source components in the shadcn/ui style.
-  url: https://www.alignui.com
-  category: components
-  free: full
-  status: candidate
-  source: manual
-
 - slug: cult-ui
   name: Cult UI
-  description: Copy-paste components for shadcn/ui.
+  description: Animated components, blocks and templates for shadcn/ui, with a paid Pro tier.
   url: https://www.cult-ui.com
+  repo: https://github.com/nolly-studio/cult-ui
   category: components
+  license: MIT
   free: partial
-  status: candidate
+  status: verified
   source: manual
 
 - slug: dot-ui
   name: Dot UI
-  description: Open component platform in the spirit of shadcn/ui.
+  description: Design system studio on React Aria and Tailwind CSS that exports through the shadcn CLI.
   url: https://dotui.org
+  repo: https://github.com/mehdibha/dotUI
   category: components
+  license: MIT
   free: full
-  status: candidate
+  status: verified
   source: manual
 
 - slug: enhanced-button
   name: Enhanced Button
+  description: An extended version of the shadcn/ui Button component.
   url: https://enhanced-button.vercel.app
+  repo: https://github.com/jakobhoeg/enhanced-button
   category: components
+  license: MIT
   free: full
-  status: candidate
+  status: verified
   source: manual
 
 - slug: fancy-components
   name: Fancy Components
-  description: Community components built for shadcn/ui.
-  url: https://fancycomponents.dev
+  description: Playful animated React components, installable through the shadcn CLI.
+  url: https://www.fancycomponents.dev
+  repo: https://github.com/danielpetho/fancy
   category: components
-  free: unknown
-  status: candidate
+  license: MIT
+  free: full
+  status: verified
   source: manual
 
 - slug: jolly-ui
   name: JollyUI
   description: shadcn/ui-style components built on React Aria.
   url: https://www.jollyui.dev
+  repo: https://github.com/jolbol1/jolly-ui
   category: components
+  license: MIT
   free: full
-  status: candidate
+  status: verified
   source: manual
 
 - slug: kibo-ui
   name: Kibo UI
   description: Components, blocks and hooks distributed through a shadcn registry.
   url: https://www.kibo-ui.com
+  repo: https://github.com/shadcnblocks/kibo
   category: components
   license: MIT
   free: full
-  status: candidate
+  status: verified
   source: manual
 
 - slug: kokonut-ui
   name: Kokonut UI
-  description: Open-source components, blocks and hooks for shadcn/ui.
+  description: Components built with Tailwind CSS, shadcn/ui and Motion, with a paid Pro tier.
   url: https://kokonutui.com
+  repo: https://github.com/kokonut-labs/kokonutui
   category: components
-  free: full
-  status: candidate
+  license: MIT
+  free: partial
+  status: verified
   source: manual
 
 - slug: myna-ui
   name: Myna UI
   description: shadcn/ui-compatible components with a matching Figma kit.
   url: https://mynaui.com
+  repo: https://github.com/praveenjuge/mynaui
   category: components
   free: unknown
   status: candidate
   source: manual
+  notes: No license found in the repository or on the site.
 
 - slug: origin-ui
   name: Origin UI
-  description: Open-source components and blocks.
+  description: Radix-based components in the shadcn/ui style, installable from a shadcn registry.
   url: https://coss.com/origin
+  repo: https://github.com/cosscom/coss
   category: components
   license: MIT
   free: full
-  status: candidate
+  status: verified
   source: manual
-  notes: originui.com now redirects to coss.com/ui.
+  notes: Kept available by coss.com after the acquisition; originui.com now redirects to coss.com/ui. MIT applies to apps/origin, while the rest of the coss repository is AGPL-3.0.
 
 - slug: reui
   name: ReUI
+  description: shadcn/ui components and patterns, with paid Pro blocks.
   url: https://reui.io
+  repo: https://github.com/keenthemes/reui
   category: components
-  free: full
-  status: candidate
+  license: MIT
+  free: partial
+  status: verified
   source: manual
 
 - slug: shadcn-chat
   name: shadcn-chat
+  description: CLI that adds chat components to a shadcn/ui project.
   url: https://github.com/jakobhoeg/shadcn-chat
   repo: https://github.com/jakobhoeg/shadcn-chat
   category: components
   license: MIT
   free: full
-  status: candidate
+  status: verified
   source: manual
 
 - slug: shadcn-expansions
   name: shadcn/ui expansions
-  description: Community-built extra components.
+  description: Extra components built on top of shadcn/ui.
   url: https://shadcnui-expansions.typeart.cc
   repo: https://github.com/hsuanyi-chou/shadcn-ui-expansions
   category: components
+  license: MIT
   free: full
-  status: candidate
+  status: verified
   source: manual
 
 - slug: skiper-ui
   name: Skiper UI
-  description: Components distributed through a shadcn registry.
+  description: Uncommon components for shadcn/ui, with a paid Pro tier.
   url: https://skiper-ui.com
   category: components
-  free: unknown
+  free: partial
   status: candidate
   source: manual
-
-- slug: syntax-ui
-  name: Syntax UI
-  description: Open collection of Tailwind CSS and shadcn/ui components.
-  url: https://syntaxui.com
-  category: components
-  free: full
-  status: candidate
-  source: manual
+  notes: The terms of service reserve all rights and allow personal use only; no license for the components found.
 
 - slug: ui-layouts
   name: UI Layouts
-  description: Free, open-source layouts and components.
-  url: https://ui-layouts.com
+  description: React and Tailwind CSS components, effects and blocks served from a shadcn registry. Paid Pro blocks alongside.
+  url: https://www.ui-layouts.com
+  repo: https://github.com/ui-layouts/uilayouts
   category: components
-  free: full
-  status: candidate
+  license: MIT
+  free: partial
+  status: verified
   source: manual
 
 # blocks
 
 - slug: shadcn-space
   name: Shadcn Space
+  description: Open-source shadcn/ui blocks, components and templates on Radix UI and Base UI, with a paid tier.
   url: https://shadcnspace.com/components
+  repo: https://github.com/shadcnspace/shadcnspace
   category: blocks
-  free: unknown
-  status: candidate
+  license: MIT
+  free: partial
+  status: verified
   source: manual
 
 - slug: shadcn-studio
   name: shadcn/studio
+  description: Copy-and-paste shadcn/ui components, blocks and templates, with a paid tier.
   url: https://shadcnstudio.com/components
+  repo: https://github.com/shadcnstudio/shadcn-studio
   category: blocks
+  license: MIT
   free: partial
-  status: candidate
+  status: verified
   source: manual
 
 - slug: shadcn-ui-blocks
@@ -177,24 +189,29 @@
   category: blocks
   license: MIT
   free: full
-  status: candidate
+  status: verified
   source: manual
 
 - slug: shadcnblocks
   name: Shadcnblocks
-  description: Marketing blocks built for shadcn/ui. A free subset plus paid blocks.
-  url: https://www.shadcnblocks.com/blocks
+  description: The free part of a block library for shadcn/ui; the rest is paid.
+  url: https://www.shadcnblocks.com/blocks/free
+  repo: https://github.com/shadcnblocks/shadcn-ui-blocks
   category: blocks
+  license: MIT + Commons Clause
   free: partial
-  status: candidate
+  status: verified
   source: manual
 
 - slug: shadcncraft
   name: shadcncraft
-  url: https://shadcncraft.com
+  description: Free shadcn/ui kit with a Figma file, blocks and React code; the full kit is paid.
+  url: https://shadcncraft.com/free
+  repo: https://github.com/shadcncraft/shadcncraft-free
   category: blocks
-  free: unknown
-  status: candidate
+  license: Apache-2.0
+  free: partial
+  status: verified
   source: manual
 
 # animation
@@ -207,52 +224,63 @@
   free: partial
   status: candidate
   source: manual
+  notes: The licence page covers the Pro tier only; no license found for the free components.
 
 - slug: animate-ui
   name: Animate UI
-  description: Open-source animated components with shadcn/ui support.
+  description: Animated components distributed through the shadcn CLI.
   url: https://animate-ui.com
+  repo: https://github.com/imskyleen/animate-ui
   category: animation
+  license: MIT + Commons Clause
   free: full
-  status: candidate
+  status: verified
   source: manual
 
 - slug: magic-ui
   name: Magic UI
   description: Animated landing page components. Open-source core plus a paid Pro tier.
   url: https://magicui.design
+  repo: https://github.com/magicuidesign/magicui
   category: animation
   license: MIT
   free: partial
-  status: candidate
+  status: verified
   source: manual
 
 - slug: motion-primitives
   name: Motion Primitives
+  description: Animated UI kit for React and Tailwind CSS with a shadcn registry. Paid tier alongside.
   url: https://motion-primitives.com
+  repo: https://github.com/ibelick/motion-primitives
   category: animation
+  license: MIT
   free: partial
-  status: candidate
+  status: verified
   source: manual
 
 - slug: react-bits
   name: React Bits
-  description: Open-source animated components and background effects.
+  description: Animated text, backgrounds and interactive components, with a paid Pro tier.
   url: https://reactbits.dev
+  repo: https://github.com/DavidHDev/react-bits
   category: animation
-  free: full
-  status: candidate
+  license: MIT + Commons Clause
+  free: partial
+  status: verified
   source: manual
 
 # dashboards
 
 - slug: horizon-ui
-  name: Horizon UI
-  description: Dashboard kit with a free version.
-  url: https://horizon-ui.com
+  name: Horizon AI Boilerplate
+  description: Next.js and shadcn/ui boilerplate with an AI chat admin dashboard; a Pro version is paid.
+  url: https://github.com/horizon-ui/shadcn-nextjs-boilerplate
+  repo: https://github.com/horizon-ui/shadcn-nextjs-boilerplate
   category: dashboards
+  license: MIT
   free: partial
-  status: candidate
+  status: verified
   source: manual
 
 - slug: next-shadcn-dashboard-starter
@@ -263,67 +291,66 @@
   category: dashboards
   license: MIT
   free: full
-  status: candidate
+  status: verified
   source: manual
 
 - slug: shadcn-admin
   name: Shadcn Admin
-  description: Open-source admin dashboard template.
+  description: Admin dashboard built with shadcn/ui and Vite.
   url: https://github.com/satnaing/shadcn-admin
   repo: https://github.com/satnaing/shadcn-admin
   category: dashboards
   license: MIT
   free: full
-  status: candidate
+  status: verified
   source: manual
 
 - slug: shadcndashboard-dev
   name: shadcndashboard.dev
+  description: Admin dashboard built with React, Vite and shadcn/ui. The site also sells paid blocks and kits.
   url: https://shadcndashboard.dev
+  repo: https://github.com/shadcndashboard/shadcndashboard
   category: dashboards
-  free: unknown
-  status: candidate
+  license: MIT
+  free: partial
+  status: verified
   source: manual
 
 - slug: shadcnuikit
   name: Shadcn UI Kit
+  description: Admin dashboards, website templates and blocks, with a paid tier.
   url: https://shadcnuikit.com
+  repo: https://github.com/bundui/shadcn-ui-kit
   category: dashboards
+  license: MIT
   free: partial
-  status: candidate
+  status: verified
   source: manual
 
 # templates
 
-- slug: nextjs-ai-chatbot
-  name: Next.js AI Chatbot
-  description: AI chat template from Vercel, built with shadcn/ui.
-  url: https://github.com/vercel/nextjs-ai-chatbot
-  repo: https://github.com/vercel/nextjs-ai-chatbot
-  category: templates
-  free: full
-  status: candidate
-  source: manual
-
 - slug: saas-boilerplate
   name: SaaS Boilerplate
-  description: SaaS starter with shadcn/ui and authentication.
+  description: SaaS starter with shadcn/ui and authentication. A Pro version is paid.
   url: https://github.com/ixartz/SaaS-Boilerplate
   repo: https://github.com/ixartz/SaaS-Boilerplate
   category: templates
-  free: full
-  status: candidate
+  license: MIT
+  free: partial
+  status: verified
   source: manual
 
-- slug: vercel-commerce
-  name: Vercel Commerce
-  description: E-commerce template built with shadcn/ui.
-  url: https://github.com/vercel/commerce
-  repo: https://github.com/vercel/commerce
+- slug: vercel-chatbot
+  name: Vercel Chatbot
+  description: Next.js AI chatbot template from Vercel, built with shadcn/ui.
+  url: https://github.com/vercel/chatbot
+  repo: https://github.com/vercel/chatbot
   category: templates
-  free: unknown
-  status: candidate
+  license: Apache-2.0
+  free: full
+  status: verified
   source: manual
+  notes: Formerly Next.js AI Chatbot.
 
 # themes
 
@@ -331,107 +358,114 @@
   name: ui.jln.dev
   description: Color palette and theme generator for shadcn/ui with live preview.
   url: https://ui.jln.dev
+  repo: https://github.com/jln13x/ui.jln.dev
   category: themes
-  free: unknown
-  status: candidate
+  license: MIT
+  free: full
+  status: verified
   source: manual
 
 - slug: shadcn-studio-theme-generator
   name: shadcn/studio Theme Generator
+  description: Theme generator for shadcn/ui covering colors, fonts and presets for light and dark mode.
   url: https://shadcnstudio.com/theme-generator
+  repo: https://github.com/shadcnstudio/shadcn-studio
   category: themes
-  free: full
-  status: candidate
+  license: MIT
+  free: partial
+  status: verified
   source: manual
 
-- slug: shadcn-ui-themes
-  name: shadcn/ui Themes
-  description: Official preset color themes for the components.
-  url: https://ui.shadcn.com/themes
+- slug: shadcn-ui-create
+  name: shadcn/ui Create
+  description: Official builder for a custom shadcn/ui setup, theme included.
+  url: https://ui.shadcn.com/create
   repo: https://github.com/shadcn-ui/ui
   category: themes
   license: MIT
   free: full
-  status: candidate
+  status: verified
   source: manual
+  notes: ui.shadcn.com/themes now redirects here.
 
 - slug: tweakcn
   name: tweakcn
   description: Visual theme editor for shadcn/ui with presets and CSS export.
   url: https://tweakcn.com
+  repo: https://github.com/jnsahaj/tweakcn
   category: themes
   license: Apache-2.0
   free: full
-  status: candidate
+  status: verified
   source: manual
 
 # extensions
 
 - slug: auto-form
   name: AutoForm
-  description: Generates forms from Zod schemas.
-  url: https://github.com/vantezzen/auto-form
-  repo: https://github.com/vantezzen/auto-form
+  description: Renders forms from an existing data schema, such as Zod.
+  url: https://github.com/vantezzen/autoform
+  repo: https://github.com/vantezzen/autoform
   category: extensions
   license: MIT
   free: full
-  status: candidate
-  source: manual
-
-- slug: novel
-  name: Novel
-  description: Notion-style editor.
-  url: https://novel.sh
-  category: extensions
-  license: Apache-2.0
-  free: full
-  status: candidate
+  status: verified
   source: manual
 
 - slug: plate
   name: Plate
-  description: Rich text editor.
+  description: Rich text editor framework with components built on shadcn/ui. Paid templates alongside.
   url: https://platejs.org
+  repo: https://github.com/udecode/plate
   category: extensions
   license: MIT
-  free: full
-  status: candidate
+  free: partial
+  status: verified
   source: manual
 
 - slug: shadcn-extension
   name: shadcn-extension
   description: Extra components such as multi-select, tag input and data table.
-  url: https://shadcn-extension.com
+  url: https://github.com/BelkacemYerfa/shadcn-extension
+  repo: https://github.com/BelkacemYerfa/shadcn-extension
   category: extensions
-  free: unknown
-  status: candidate
+  license: MIT
+  free: full
+  status: verified
   source: manual
+  notes: shadcn-extension.com no longer resolves.
 
 - slug: shadcn-form-builder
   name: shadcn Form Builder
   description: Visual form builder that generates shadcn/ui form code.
   url: https://www.shadcn-form.com
+  repo: https://github.com/hasanharman/form-builder
   category: extensions
+  license: MIT
   free: full
-  status: candidate
+  status: verified
   source: manual
 
 - slug: shadcnui-addon
   name: shadcnui-addon
+  description: Add-on components that extend shadcn/ui.
   url: https://shadcnui-addon.vercel.app
+  repo: https://github.com/AmruthLP12/shadcnui-addon
   category: extensions
   free: unknown
   status: candidate
   source: manual
+  notes: No license in the repository.
 
 - slug: tablecn
   name: tablecn
-  description: Data table components.
+  description: Data table and data grid components built with shadcn/ui.
   url: https://tablecn.com
+  repo: https://github.com/sadmann7/tablecn
   category: extensions
   license: MIT
   free: full
-  status: candidate
+  status: verified
   source: manual
 
 # charts
@@ -444,18 +478,7 @@
   category: charts
   license: MIT
   free: full
-  status: candidate
-  source: manual
-
-# design-kits
-
-- slug: shadcn-ui-figma
-  name: shadcn/ui Figma
-  description: Figma resources linked from the shadcn/ui docs.
-  url: https://ui.shadcn.com/docs/figma
-  category: design-kits
-  free: unknown
-  status: candidate
+  status: verified
   source: manual
 
 # ports
@@ -464,16 +487,20 @@
   name: shadcn-vue
   description: Port of shadcn/ui to Vue.
   url: https://www.shadcn-vue.com
+  repo: https://github.com/unovue/shadcn-vue
   category: ports
-  free: unknown
-  status: candidate
+  license: MIT
+  free: full
+  status: verified
   source: manual
 
 - slug: solid-ui
   name: Solid UI
-  description: shadcn/ui-inspired port for SolidJS.
+  description: Unofficial port of shadcn/ui to SolidJS.
   url: https://www.solid-ui.com
+  repo: https://github.com/stefan-karger/solid-ui
   category: ports
-  free: unknown
-  status: candidate
+  license: MIT
+  free: full
+  status: verified
   source: manual
