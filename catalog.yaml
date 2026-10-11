@@ -1,45 +1,281 @@
-# Huvudkatalog. Alla poster nedan är status: candidate, de är tillagda ur minnet och inte verifierade.
-# Kolla länk, licens och gratisstatus innan status sätts till verified.
+# The index: one entry per resource. Field reference in readme.md.
+# Entries with status: candidate are unverified. Check the link, the license and
+# whether it is free before setting status: verified.
 
-# --- components ---
-- {slug: shadcn-ui, name: shadcn/ui (officiell), url: https://ui.shadcn.com, category: components, license: MIT, free: full, status: candidate}
-- {slug: magic-ui, name: Magic UI, url: https://magicui.design, category: animation, license: MIT, free: partial, status: candidate}
-- {slug: aceternity-ui, name: Aceternity UI, url: https://ui.aceternity.com, category: animation, free: partial, status: candidate}
-- {slug: origin-ui, name: Origin UI (nu coss.com/origin), url: https://coss.com/origin, category: components, license: MIT, free: full, status: candidate}
-- {slug: kibo-ui, name: Kibo UI, url: https://www.kibo-ui.com, category: components, license: MIT, free: full, status: candidate}
-- {slug: cult-ui, name: Cult UI, url: https://www.cult-ui.com, category: components, free: partial, status: candidate}
-- {slug: animate-ui, name: Animate UI, url: https://animate-ui.com, category: animation, free: full, status: candidate}
-- {slug: motion-primitives, name: Motion Primitives, url: https://motion-primitives.com, category: animation, free: partial, status: candidate}
-- {slug: reui, name: ReUI, url: https://reui.io, category: components, free: full, status: candidate}
-- {slug: jolly-ui, name: JollyUI (React Aria + shadcn), url: https://www.jollyui.dev, category: components, free: full, status: candidate}
-- {slug: shadcn-expansions, name: shadcn/ui expansions, url: https://shadcnui-expansions.typeart.cc, category: components, free: full, status: candidate}
-- {slug: enhanced-button, name: Enhanced Button, url: https://enhanced-button.vercel.app, category: components, free: full, status: candidate}
-- {slug: shadcn-chat, name: shadcn-chat, url: https://github.com/jakobhoeg/shadcn-chat, category: components, license: MIT, free: full, status: candidate}
+# components
 
-# --- blocks ---
-- {slug: shadcn-official-blocks, name: shadcn/ui Blocks, url: https://ui.shadcn.com/blocks, category: blocks, license: MIT, free: full, status: candidate}
-- {slug: shadcnblocks-free, name: Shadcnblocks (gratisdelen), url: https://www.shadcnblocks.com/blocks, category: blocks, free: partial, status: candidate}
-- {slug: shadcn-studio, name: shadcn/studio, url: https://shadcnstudio.com/components, category: blocks, free: partial, status: candidate}
-- {slug: shadcn-space, name: Shadcn Space, url: https://shadcnspace.com/components, category: blocks, free: unknown, status: candidate}
-- {slug: shadcncraft, name: shadcncraft, url: https://shadcncraft.com, category: blocks, free: unknown, status: candidate}
+- slug: cult-ui
+  name: Cult UI
+  url: https://www.cult-ui.com
+  category: components
+  free: partial
+  status: candidate
+  source: manual
 
-# --- dashboards ---
-- {slug: shadcn-admin, name: Shadcn Admin (satnaing), url: https://github.com/satnaing/shadcn-admin, category: dashboards, license: MIT, free: full, status: candidate}
-- {slug: next-shadcn-dashboard-starter, name: Next Shadcn Dashboard Starter (Kiranism), url: https://github.com/Kiranism/next-shadcn-dashboard-starter, category: dashboards, license: MIT, free: full, status: candidate}
-- {slug: shadcndashboard-dev, name: shadcndashboard.dev, url: https://shadcndashboard.dev, category: dashboards, free: unknown, status: candidate}
-- {slug: shadcnuikit, name: Shadcn UI Kit (gratisdelen), url: https://shadcnuikit.com, category: dashboards, free: partial, status: candidate}
+- slug: enhanced-button
+  name: Enhanced Button
+  url: https://enhanced-button.vercel.app
+  category: components
+  free: full
+  status: candidate
+  source: manual
 
-# --- themes ---
-- {slug: tweakcn, name: tweakcn (temaeditor), url: https://tweakcn.com, category: themes, license: Apache-2.0, free: full, status: candidate}
-- {slug: shadcn-themes-official, name: shadcn/ui Themes, url: https://ui.shadcn.com/themes, category: themes, license: MIT, free: full, status: candidate}
-- {slug: shadcn-studio-theme-gen, name: shadcn/studio Theme Generator, url: https://shadcnstudio.com/theme-generator, category: themes, free: full, status: candidate}
+- slug: jolly-ui
+  name: JollyUI
+  description: shadcn/ui-style components built on React Aria.
+  url: https://www.jollyui.dev
+  category: components
+  free: full
+  status: candidate
+  source: manual
 
-# --- extensions ---
-- {slug: sonner, name: Sonner (toasts), url: https://sonner.emilkowal.ski, category: extensions, license: MIT, free: full, status: candidate}
-- {slug: vaul, name: Vaul (drawer), url: https://vaul.emilkowal.ski, category: extensions, license: MIT, free: full, status: candidate}
-- {slug: plate, name: Plate (rich text-editor), url: https://platejs.org, category: extensions, license: MIT, free: full, status: candidate}
-- {slug: novel, name: Novel (Notion-lik editor), url: https://novel.sh, category: extensions, license: Apache-2.0, free: full, status: candidate}
-- {slug: tablecn, name: tablecn (datatabeller), url: https://tablecn.com, category: extensions, license: MIT, free: full, status: candidate}
-- {slug: auto-form, name: AutoForm (formulär från Zod), url: https://github.com/vantezzen/auto-form, category: extensions, license: MIT, free: full, status: candidate}
-- {slug: shadcn-form-builder, name: shadcn Form Builder, url: https://www.shadcn-form.com, category: extensions, free: full, status: candidate}
-- {slug: shadcnui-addon, name: shadcnui-addon, url: https://shadcnui-addon.vercel.app, category: extensions, free: unknown, status: candidate}
+- slug: kibo-ui
+  name: Kibo UI
+  url: https://www.kibo-ui.com
+  category: components
+  license: MIT
+  free: full
+  status: candidate
+  source: manual
+
+- slug: origin-ui
+  name: Origin UI
+  url: https://coss.com/origin
+  category: components
+  license: MIT
+  free: full
+  status: candidate
+  source: manual
+  notes: Moved to coss.com/origin.
+
+- slug: reui
+  name: ReUI
+  url: https://reui.io
+  category: components
+  free: full
+  status: candidate
+  source: manual
+
+- slug: shadcn-chat
+  name: shadcn-chat
+  url: https://github.com/jakobhoeg/shadcn-chat
+  repo: https://github.com/jakobhoeg/shadcn-chat
+  category: components
+  license: MIT
+  free: full
+  status: candidate
+  source: manual
+
+- slug: shadcn-expansions
+  name: shadcn/ui expansions
+  url: https://shadcnui-expansions.typeart.cc
+  category: components
+  free: full
+  status: candidate
+  source: manual
+
+# blocks
+
+- slug: shadcn-space
+  name: Shadcn Space
+  url: https://shadcnspace.com/components
+  category: blocks
+  free: unknown
+  status: candidate
+  source: manual
+
+- slug: shadcn-studio
+  name: shadcn/studio
+  url: https://shadcnstudio.com/components
+  category: blocks
+  free: partial
+  status: candidate
+  source: manual
+
+- slug: shadcn-ui-blocks
+  name: shadcn/ui Blocks
+  url: https://ui.shadcn.com/blocks
+  repo: https://github.com/shadcn-ui/ui
+  category: blocks
+  license: MIT
+  free: full
+  status: candidate
+  source: manual
+
+- slug: shadcnblocks
+  name: Shadcnblocks
+  url: https://www.shadcnblocks.com/blocks
+  category: blocks
+  free: partial
+  status: candidate
+  source: manual
+
+- slug: shadcncraft
+  name: shadcncraft
+  url: https://shadcncraft.com
+  category: blocks
+  free: unknown
+  status: candidate
+  source: manual
+
+# animation
+
+- slug: aceternity-ui
+  name: Aceternity UI
+  url: https://ui.aceternity.com
+  category: animation
+  free: partial
+  status: candidate
+  source: manual
+
+- slug: animate-ui
+  name: Animate UI
+  url: https://animate-ui.com
+  category: animation
+  free: full
+  status: candidate
+  source: manual
+
+- slug: magic-ui
+  name: Magic UI
+  url: https://magicui.design
+  category: animation
+  license: MIT
+  free: partial
+  status: candidate
+  source: manual
+
+- slug: motion-primitives
+  name: Motion Primitives
+  url: https://motion-primitives.com
+  category: animation
+  free: partial
+  status: candidate
+  source: manual
+
+# dashboards
+
+- slug: next-shadcn-dashboard-starter
+  name: Next Shadcn Dashboard Starter
+  url: https://github.com/Kiranism/next-shadcn-dashboard-starter
+  repo: https://github.com/Kiranism/next-shadcn-dashboard-starter
+  category: dashboards
+  license: MIT
+  free: full
+  status: candidate
+  source: manual
+
+- slug: shadcn-admin
+  name: Shadcn Admin
+  url: https://github.com/satnaing/shadcn-admin
+  repo: https://github.com/satnaing/shadcn-admin
+  category: dashboards
+  license: MIT
+  free: full
+  status: candidate
+  source: manual
+
+- slug: shadcndashboard-dev
+  name: shadcndashboard.dev
+  url: https://shadcndashboard.dev
+  category: dashboards
+  free: unknown
+  status: candidate
+  source: manual
+
+- slug: shadcnuikit
+  name: Shadcn UI Kit
+  url: https://shadcnuikit.com
+  category: dashboards
+  free: partial
+  status: candidate
+  source: manual
+
+# themes
+
+- slug: shadcn-studio-theme-generator
+  name: shadcn/studio Theme Generator
+  url: https://shadcnstudio.com/theme-generator
+  category: themes
+  free: full
+  status: candidate
+  source: manual
+
+- slug: shadcn-ui-themes
+  name: shadcn/ui Themes
+  url: https://ui.shadcn.com/themes
+  repo: https://github.com/shadcn-ui/ui
+  category: themes
+  license: MIT
+  free: full
+  status: candidate
+  source: manual
+
+- slug: tweakcn
+  name: tweakcn
+  description: Visual theme editor for shadcn/ui.
+  url: https://tweakcn.com
+  category: themes
+  license: Apache-2.0
+  free: full
+  status: candidate
+  source: manual
+
+# extensions
+
+- slug: auto-form
+  name: AutoForm
+  description: Generates forms from Zod schemas.
+  url: https://github.com/vantezzen/auto-form
+  repo: https://github.com/vantezzen/auto-form
+  category: extensions
+  license: MIT
+  free: full
+  status: candidate
+  source: manual
+
+- slug: novel
+  name: Novel
+  description: Notion-style editor.
+  url: https://novel.sh
+  category: extensions
+  license: Apache-2.0
+  free: full
+  status: candidate
+  source: manual
+
+- slug: plate
+  name: Plate
+  description: Rich text editor.
+  url: https://platejs.org
+  category: extensions
+  license: MIT
+  free: full
+  status: candidate
+  source: manual
+
+- slug: shadcn-form-builder
+  name: shadcn Form Builder
+  url: https://www.shadcn-form.com
+  category: extensions
+  free: full
+  status: candidate
+  source: manual
+
+- slug: shadcnui-addon
+  name: shadcnui-addon
+  url: https://shadcnui-addon.vercel.app
+  category: extensions
+  free: unknown
+  status: candidate
+  source: manual
+
+- slug: tablecn
+  name: tablecn
+  description: Data table components.
+  url: https://tablecn.com
+  category: extensions
+  license: MIT
+  free: full
+  status: candidate
+  source: manual

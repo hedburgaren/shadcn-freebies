@@ -1,0 +1,15 @@
+# Resources that were considered and left out of the index, with the reason.
+# Check new candidates against this file as well as catalog.yaml, so the same
+# links do not come back on every harvest. Reason codes are explained in readme.md.
+
+- name: shadcn/ui
+  url: https://ui.shadcn.com
+  reason: core
+
+- name: Sonner
+  url: https://sonner.emilkowal.ski
+  reason: upstream
+
+- name: Vaul
+  url: https://vaul.emilkowal.ski
+  reason: upstream
