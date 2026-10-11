@@ -1,0 +1,42 @@
+# Categories in the order the index shows them. Used by scripts/gallery.mjs;
+# every category in catalog.yaml must be listed here.
+
+- slug: components
+  title: Components
+  description: Single components and component libraries.
+
+- slug: blocks
+  title: Blocks
+  description: Ready-made sections such as hero, pricing, footer and auth.
+
+- slug: animation
+  title: Animation
+  description: Animated components.
+
+- slug: dashboards
+  title: Dashboards
+  description: Admin panels and dashboard starters.
+
+- slug: templates
+  title: Templates
+  description: Full sites, landing pages and app starters.
+
+- slug: themes
+  title: Themes
+  description: Color themes, theme generators and design tokens.
+
+- slug: extensions
+  title: Extensions
+  description: Add-ons, editors, form builders and CLI tools.
+
+- slug: charts
+  title: Charts
+  description: Chart components.
+
+- slug: design-kits
+  title: Design kits
+  description: Figma kits.
+
+- slug: ports
+  title: Ports
+  description: shadcn/ui for other frameworks, such as Vue and Solid.

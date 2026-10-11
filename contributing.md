@@ -15,7 +15,7 @@ Plenty of good projects fail the first test. shadcn/ui itself and the libraries 
 
 Open an issue with the link and one line on what it is. That is enough; the checking happens on our side.
 
-You can also open a pull request that adds an entry to `catalog.yaml` with `status: candidate`. Search `catalog.yaml` and `excluded.yaml` for the URL first. New entries go under their category, in alphabetical order by `slug`, and follow the entry format in the [readme](readme.md#entry-format).
+You can also open a pull request that adds an entry to `catalog.yaml` with `status: candidate`. Search `catalog.yaml` and `excluded.yaml` for the URL first. New entries go under their category, in alphabetical order by `slug`, and follow the entry format in the [readme](readme.md#entry-format). `node gallery.mjs --check` in `scripts/` tells you whether the catalog still holds together.
 
 ## Report a problem
 

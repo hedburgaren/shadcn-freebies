@@ -4,7 +4,9 @@
   "type": "module",
   "description": "Maintenance scripts for the shadcn-freebies index.",
   "scripts": {
-    "screenshots": "node screenshots.mjs"
+    "screenshots": "node screenshots.mjs",
+    "gallery": "node gallery.mjs",
+    "check": "node gallery.mjs --check"
   },
   "dependencies": {
     "playwright": "1.64.0",
