@@ -1,0 +1,13 @@
+{
+  "name": "shadcn-freebies-scripts",
+  "private": true,
+  "type": "module",
+  "description": "Maintenance scripts for the shadcn-freebies index.",
+  "scripts": {
+    "screenshots": "node screenshots.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.64.0",
+    "yaml": "2.9.1"
+  }
+}

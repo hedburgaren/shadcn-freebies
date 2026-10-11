@@ -11,8 +11,9 @@
   category: components
   license: MIT
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/cult-ui.webp
 
 - slug: dot-ui
   name: Dot UI
@@ -22,8 +23,9 @@
   category: components
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/dot-ui.webp
 
 - slug: enhanced-button
   name: Enhanced Button
@@ -33,8 +35,9 @@
   category: components
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/enhanced-button.webp
 
 - slug: fancy-components
   name: Fancy Components
@@ -44,8 +47,9 @@
   category: components
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/fancy-components.webp
 
 - slug: jolly-ui
   name: JollyUI
@@ -55,8 +59,9 @@
   category: components
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/jolly-ui.webp
 
 - slug: kibo-ui
   name: Kibo UI
@@ -66,8 +71,9 @@
   category: components
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/kibo-ui.webp
 
 - slug: kokonut-ui
   name: Kokonut UI
@@ -77,8 +83,9 @@
   category: components
   license: MIT
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/kokonut-ui.webp
 
 - slug: myna-ui
   name: Myna UI
@@ -87,8 +94,9 @@
   repo: https://github.com/praveenjuge/mynaui
   category: components
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/myna-ui.webp
   notes: No license found in the repository or on the site; ask the author before reusing code.
 
 - slug: origin-ui
@@ -99,8 +107,9 @@
   category: components
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/origin-ui.webp
   notes: Kept available by coss.com after the acquisition; originui.com now redirects to coss.com/ui. MIT applies to apps/origin, while the rest of the coss repository is AGPL-3.0.
 
 - slug: reui
@@ -111,19 +120,22 @@
   category: components
   license: MIT
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/reui.webp
 
 - slug: shadcn-chat
   name: shadcn-chat
   description: CLI that adds chat components to a shadcn/ui project.
   url: https://github.com/jakobhoeg/shadcn-chat
+  demo: https://shadcn-chat.vercel.app
   repo: https://github.com/jakobhoeg/shadcn-chat
   category: components
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcn-chat.webp
 
 - slug: shadcn-expansions
   name: shadcn/ui expansions
@@ -133,8 +145,9 @@
   category: components
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcn-expansions.webp
 
 - slug: skiper-ui
   name: Skiper UI
@@ -142,8 +155,9 @@
   url: https://skiper-ui.com
   category: components
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/skiper-ui.webp
   notes: The terms of service reserve all rights and allow personal use only; read them before reusing code.
 
 - slug: ui-layouts
@@ -154,8 +168,9 @@
   category: components
   license: MIT
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/ui-layouts.webp
 
 # blocks
 
@@ -167,8 +182,9 @@
   category: blocks
   license: MIT
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcn-space.webp
 
 - slug: shadcn-studio
   name: shadcn/studio
@@ -178,8 +194,9 @@
   category: blocks
   license: MIT
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcn-studio.webp
 
 - slug: shadcn-ui-blocks
   name: shadcn/ui Blocks
@@ -189,8 +206,9 @@
   category: blocks
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcn-ui-blocks.webp
 
 - slug: shadcnblocks
   name: Shadcnblocks
@@ -200,8 +218,9 @@
   category: blocks
   license: MIT + Commons Clause
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcnblocks.webp
 
 - slug: shadcncraft
   name: shadcncraft
@@ -211,8 +230,9 @@
   category: blocks
   license: Apache-2.0
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcncraft.webp
 
 # animation
 
@@ -222,8 +242,9 @@
   url: https://ui.aceternity.com
   category: animation
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/aceternity-ui.webp
   notes: The licence page covers the Pro tier; no license found for the free components.
 
 - slug: animate-ui
@@ -234,8 +255,9 @@
   category: animation
   license: MIT + Commons Clause
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/animate-ui.webp
 
 - slug: magic-ui
   name: Magic UI
@@ -245,8 +267,9 @@
   category: animation
   license: MIT
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/magic-ui.webp
 
 - slug: motion-primitives
   name: Motion Primitives
@@ -256,8 +279,9 @@
   category: animation
   license: MIT
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/motion-primitives.webp
 
 - slug: react-bits
   name: React Bits
@@ -267,8 +291,9 @@
   category: animation
   license: MIT + Commons Clause
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/react-bits.webp
 
 # dashboards
 
@@ -280,30 +305,36 @@
   category: dashboards
   license: MIT
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/horizon-ui.webp
+  notes: horizon-ui.com showed a paused deployment on 2026-10-11; the repository is still available.
 
 - slug: next-shadcn-dashboard-starter
   name: Next Shadcn Dashboard Starter
   description: Admin dashboard starter with auth, tables and forms.
   url: https://github.com/Kiranism/next-shadcn-dashboard-starter
+  demo: https://shadcn-dashboard.kiranism.dev
   repo: https://github.com/Kiranism/next-shadcn-dashboard-starter
   category: dashboards
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/next-shadcn-dashboard-starter.webp
 
 - slug: shadcn-admin
   name: Shadcn Admin
   description: Admin dashboard built with shadcn/ui and Vite.
   url: https://github.com/satnaing/shadcn-admin
+  demo: https://shadcn-admin.netlify.app
   repo: https://github.com/satnaing/shadcn-admin
   category: dashboards
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcn-admin.webp
 
 - slug: shadcndashboard-dev
   name: shadcndashboard.dev
@@ -313,8 +344,9 @@
   category: dashboards
   license: MIT
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcndashboard-dev.webp
 
 - slug: shadcnuikit
   name: Shadcn UI Kit
@@ -324,8 +356,9 @@
   category: dashboards
   license: MIT
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcnuikit.webp
 
 # templates
 
@@ -333,23 +366,27 @@
   name: SaaS Boilerplate
   description: SaaS starter with shadcn/ui and authentication. A Pro version is paid.
   url: https://github.com/ixartz/SaaS-Boilerplate
+  demo: https://react-saas.com
   repo: https://github.com/ixartz/SaaS-Boilerplate
   category: templates
   license: MIT
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/saas-boilerplate.webp
 
 - slug: vercel-chatbot
   name: Vercel Chatbot
   description: Next.js AI chatbot template from Vercel, built with shadcn/ui.
   url: https://github.com/vercel/chatbot
+  demo: https://chatbot.ai-sdk.dev
   repo: https://github.com/vercel/chatbot
   category: templates
   license: Apache-2.0
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/vercel-chatbot.webp
   notes: Formerly Next.js AI Chatbot.
 
 # themes
@@ -362,8 +399,9 @@
   category: themes
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/jln-theme-generator.webp
 
 - slug: shadcn-studio-theme-generator
   name: shadcn/studio Theme Generator
@@ -373,8 +411,9 @@
   category: themes
   license: MIT
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcn-studio-theme-generator.webp
 
 - slug: shadcn-ui-create
   name: shadcn/ui Create
@@ -384,8 +423,9 @@
   category: themes
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcn-ui-create.webp
   notes: ui.shadcn.com/themes now redirects here.
 
 - slug: tweakcn
@@ -396,8 +436,9 @@
   category: themes
   license: Apache-2.0
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/tweakcn.webp
 
 # extensions
 
@@ -405,12 +446,14 @@
   name: AutoForm
   description: Renders forms from an existing data schema, such as Zod.
   url: https://github.com/vantezzen/autoform
+  demo: https://autoform.vantezzen.io
   repo: https://github.com/vantezzen/autoform
   category: extensions
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/auto-form.webp
 
 - slug: plate
   name: Plate
@@ -420,8 +463,9 @@
   category: extensions
   license: MIT
   free: partial
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/plate.webp
 
 - slug: shadcn-extension
   name: shadcn-extension
@@ -431,8 +475,9 @@
   category: extensions
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcn-extension.webp
   notes: shadcn-extension.com no longer resolves.
 
 - slug: shadcn-form-builder
@@ -445,6 +490,7 @@
   free: full
   status: verified
   source: manual
+  notes: The site's bot protection stops automated screenshots, so this entry has none.
 
 - slug: shadcnui-addon
   name: shadcnui-addon
@@ -453,8 +499,9 @@
   repo: https://github.com/AmruthLP12/shadcnui-addon
   category: extensions
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcnui-addon.webp
   notes: No license in the repository; ask the author before reusing code.
 
 - slug: tablecn
@@ -465,8 +512,9 @@
   category: extensions
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/tablecn.webp
 
 # charts
 
@@ -478,8 +526,9 @@
   category: charts
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcn-ui-charts.webp
 
 # ports
 
@@ -491,8 +540,9 @@
   category: ports
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/shadcn-vue.webp
 
 - slug: solid-ui
   name: Solid UI
@@ -502,5 +552,6 @@
   category: ports
   license: MIT
   free: full
-  status: verified
+  status: screenshotted
   source: manual
+  screenshot: screenshots/solid-ui.webp
