@@ -1,57 +1,89 @@
 # shadcn-freebies
 
-En samlad, kategoriserad katalog över **gratis** resurser till shadcn/ui: block, komponenter, dashboards, mallar, teman och tillägg. Varje post ska ha en skärmdump så att man ser vad det är utan att klicka.
+An index of free extensions for [shadcn/ui](https://ui.shadcn.com): blocks, components, dashboards, templates, themes and tooling.
 
-## Struktur
+Everything listed here is free to use, at least in part. Each entry states its license, and each one gets a screenshot so you can see what it is before you click.
 
-| Sökväg | Innehåll |
+If you want everything that exists for shadcn/ui, [awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) is bigger. This index is deliberately narrower: only free resources that extend shadcn/ui, and none of them marked verified until someone has opened the link and checked the license.
+
+## Status
+
+Work in progress. All entries are still `candidate`, which means collected but not yet checked. Treat licenses and free status as unconfirmed until an entry says `verified`. Screenshots come after verification.
+
+## Categories
+
+| Category | What goes in it |
 |---|---|
-| `sources.md` | Aggregatorer och listor vi skördar länkar från |
-| `inkorg/` | Rålistor som väntar på dedupe och inläsning i katalogen |
-| `catalog.yaml` | Huvudkatalogen, en post per resurs (master-data) |
-| `screenshots/<slug>.webp` | Skärmdumpar, namngivna efter postens `slug` |
+| `components` | Single components and component libraries |
+| `blocks` | Ready-made sections such as hero, pricing, footer and auth |
+| `animation` | Animated components |
+| `dashboards` | Admin panels and dashboard starters |
+| `templates` | Full sites, landing pages and app starters |
+| `themes` | Color themes, theme generators and design tokens |
+| `extensions` | Add-ons, editors, form builders and CLI tools |
+| `charts` | Chart components |
+| `design-kits` | Figma kits |
+| `ports` | shadcn/ui for other frameworks, such as Vue and Solid |
 
-## Kategorier
+## What is left out
 
-- `blocks`: färdiga sektioner (hero, pricing, footer, auth …)
-- `components`: enskilda komponenter och komponentbibliotek
-- `dashboards`: admin-paneler och dashboard-starters
-- `templates`: hela sajter och landningssidor
-- `themes`: färgteman, theme-generatorer och designtokens
-- `extensions`: tillägg, plugins, CLI-verktyg, editorer, formulärbyggare
-- `animation`: animerade komponenter (motion-baserade)
-- `charts`: diagrambibliotek och diagramkomponenter
-- `primitives`: headless-grunder som shadcn bygger på (Radix, Base UI, Ark …)
-- `tailwind-portable`: Tailwind-block som inte är shadcn-native men går att porta
-- `showcase-repos`: riktiga open source-appar byggda med shadcn, att låna mönster från
-- `design-kits`: Figma-kit och designresurser
-- `ports`: shadcn för andra ramverk (Vue, Solid …)
+Some things turn up on every shadcn list without being extensions. They go in `excluded.yaml` with one of these reasons, so they are not added again on the next harvest:
 
-## Postformat (catalog.yaml)
+| Reason | Meaning |
+|---|---|
+| `core` | shadcn/ui itself and its docs |
+| `upstream` | A library shadcn/ui is built on, or a headless primitive layer, such as Radix, cmdk or Recharts |
+| `not-shadcn` | Tailwind CSS or React UI that is not built on shadcn/ui |
+| `showcase` | An app that uses shadcn/ui but is not meant to be reused |
+| `aggregator` | A general directory; the shadcn-specific ones are in `sources.md` |
+
+## Files
+
+| Path | Contents |
+|---|---|
+| `catalog.yaml` | The index, one entry per resource |
+| `excluded.yaml` | What was considered and left out, with the reason |
+| `sources.md` | Lists and directories we harvest links from |
+| `screenshots/<slug>.webp` | One screenshot per entry, named after its `slug` |
+
+## Entry format
 
 ```yaml
 - slug: magic-ui
   name: Magic UI
+  description: Animated landing page components. Open-source core plus a paid Pro tier.
   url: https://magicui.design
   repo: https://github.com/magicuidesign/magicui
-  category: components
+  category: animation
   license: MIT
-  free: full        # full | partial (gratisdel + betald pro) | unknown
-  status: candidate # candidate -> verified -> screenshotted
-  source: awesome-shadcn-ui
+  free: partial      # full | partial | unknown
+  status: candidate  # candidate | verified | screenshotted
+  source: manual     # a source from sources.md, or manual
   screenshot: screenshots/magic-ui.webp
   notes: ""
 ```
 
-## Arbetsflöde
+`free: partial` means a free part next to a paid tier, and `url` then points straight at the free part. `source` names the list the entry was harvested from, or `manual` when it was added by hand. Fields that are not known yet, such as `repo` or `license`, are left out until they are.
 
-1. **Skörda**: gå igenom `sources.md`, lägg till nya poster i `catalog.yaml` med `status: candidate`.
-2. **Verifiera**: kolla att länken lever, att det faktiskt är gratis, sätt `license` och `free`. Byt status till `verified`.
-3. **Skärmdumpa**: ta en bild av demo-/förhandsvisningssidan och sätt `status: screenshotted`.
-4. **Generera**: (senare) bygg en README-galleri- eller webbvy automatiskt från `catalog.yaml`.
+## How an entry gets in
 
-## Regler
+1. **Harvest.** Go through `sources.md` and add new links to `catalog.yaml` as `candidate`, after searching both `catalog.yaml` and `excluded.yaml` for the URL.
+2. **Verify.** Open the link. Confirm that the resource extends shadcn/ui and is free, fill in `license`, `repo` and `free`, then set `verified`.
+3. **Screenshot.** Capture the public demo or landing page and set `screenshotted`.
+4. **Publish.** A gallery generated from `catalog.yaml` is planned but not built yet.
 
-- Bara saker som går att använda gratis. Freemium-sajter tas med som `free: partial` och då länkar vi direkt till gratisdelen.
-- Dubbletter: samma resurs listas en gång, även om den finns i flera källor. Notera källan i `source`.
-- Licens noteras alltid när den är känd.
+## Screenshots and removal
+
+Screenshots are taken from each project's public demo or landing page and link back to the source. If you own a listed project and want the entry or its screenshot removed, open an issue. It will be taken down.
+
+## Contributing
+
+Suggestions, corrections and removal requests are all welcome. See [contributing.md](contributing.md).
+
+## License
+
+The index itself (`catalog.yaml`, `excluded.yaml`, `sources.md` and this readme) is dedicated to the public domain under [CC0 1.0](license). Use it for anything.
+
+The listed projects keep their own licenses, noted per entry. Screenshots show other people's work and belong to their respective owners; the CC0 dedication does not cover them.
+
+This project is not affiliated with shadcn/ui or its authors.
