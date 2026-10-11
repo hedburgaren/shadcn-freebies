@@ -2,9 +2,41 @@
 # Check new candidates against this file as well as catalog.yaml, so the same
 # links do not come back on every harvest. Reason codes are explained in readme.md.
 
+# core
+
 - name: shadcn/ui
   url: https://ui.shadcn.com
   reason: core
+
+- name: shadcn/ui registry docs
+  url: https://ui.shadcn.com/docs/registry
+  reason: core
+
+- name: shadcn/ui source repository
+  url: https://github.com/shadcn-ui/ui
+  reason: core
+
+# upstream
+
+- name: Ark UI
+  url: https://ark-ui.com
+  reason: upstream
+
+- name: Base UI
+  url: https://base-ui.com
+  reason: upstream
+
+- name: cmdk
+  url: https://cmdk.paco.me
+  reason: upstream
+
+- name: Radix UI
+  url: https://www.radix-ui.com
+  reason: upstream
+
+- name: Recharts
+  url: https://recharts.org
+  reason: upstream
 
 - name: Sonner
   url: https://sonner.emilkowal.ski
@@ -13,3 +45,153 @@
 - name: Vaul
   url: https://vaul.emilkowal.ski
   reason: upstream
+
+# not-shadcn
+
+- name: Cruip free templates
+  url: https://cruip.com/free-react-templates/
+  reason: not-shadcn
+
+- name: Flowrift
+  url: https://flowrift.com
+  reason: not-shadcn
+
+- name: HeroUI
+  url: https://www.heroui.com
+  reason: not-shadcn
+
+- name: HTMLrev
+  url: https://htmlrev.com
+  reason: not-shadcn
+
+- name: HyperUI
+  url: https://www.hyperui.dev
+  reason: not-shadcn
+
+- name: Material Tailwind
+  url: https://www.material-tailwind.com
+  reason: not-shadcn
+
+- name: Meraki UI
+  url: https://merakiui.com
+  reason: not-shadcn
+
+- name: Mosaic Lite
+  url: https://github.com/cruip/tailwind-dashboard-template
+  reason: not-shadcn
+
+- name: Nivo
+  url: https://nivo.rocks
+  reason: not-shadcn
+
+- name: Park UI
+  url: https://park-ui.com
+  reason: not-shadcn
+
+- name: Preline
+  url: https://preline.co
+  reason: not-shadcn
+
+- name: Realtime Colors
+  url: https://www.realtimecolors.com
+  reason: not-shadcn
+
+- name: TailGrids
+  url: https://tailgrids.com
+  reason: not-shadcn
+
+- name: Tailwind Components
+  url: https://tailwindcomponents.com
+  reason: not-shadcn
+
+- name: Tailwind Elements
+  url: https://tw-elements.com
+  reason: not-shadcn
+
+- name: Tailwind Flex
+  url: https://tailwindflex.com
+  reason: not-shadcn
+
+- name: Tailwind Templates
+  url: https://tailwindtemplates.io
+  reason: not-shadcn
+
+- name: Tailwind Toolbox
+  url: https://www.tailwindtoolbox.com
+  reason: not-shadcn
+
+- name: Tailwind UI Kit
+  url: https://www.tailwinduikit.com
+  reason: not-shadcn
+
+- name: ThemeWagon
+  url: https://themewagon.com
+  reason: not-shadcn
+
+- name: Treact
+  url: https://treact.owaiskhan.me
+  reason: not-shadcn
+
+- name: Tremor
+  url: https://www.tremor.so
+  reason: not-shadcn
+
+- name: UI Colors
+  url: https://uicolors.app
+  reason: not-shadcn
+
+- name: Uiverse
+  url: https://uiverse.io
+  reason: not-shadcn
+
+# showcase
+
+- name: Cal.com
+  url: https://github.com/calcom/cal.com
+  reason: showcase
+
+- name: Chatbot UI
+  url: https://github.com/mckaywrigley/chatbot-ui
+  reason: showcase
+
+- name: Documenso
+  url: https://github.com/documenso/documenso
+  reason: showcase
+
+- name: Dub
+  url: https://github.com/dubinc/dub
+  reason: showcase
+
+- name: Midday
+  url: https://github.com/midday-ai/midday
+  reason: showcase
+
+- name: OpenStatus
+  url: https://github.com/openstatusHQ/openstatus
+  reason: showcase
+
+- name: Taxonomy
+  url: https://github.com/shadcn-ui/taxonomy
+  reason: showcase
+
+- name: Unkey
+  url: https://github.com/unkeyed/unkey
+  reason: showcase
+
+# aggregator
+
+- name: Component Gallery
+  url: https://component.gallery
+  reason: aggregator
+
+- name: Free Frontend
+  url: https://www.freefrontend.com
+  reason: aggregator
+
+- name: Tailkits
+  url: https://tailkits.com
+  reason: aggregator
+
+- name: Tailwind Awesome
+  url: https://www.tailwindawesome.com
+  reason: aggregator
